@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/location-tracker.jar app.jar
 
 # Step 4: Expose the application port
-EXPOSE 8080
+EXPOSE 1010
 
 # Step 5: Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
